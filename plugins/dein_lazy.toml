@@ -1,0 +1,20 @@
+[[plugins]]
+repo = 'elzr/vim-json'
+on_ft = ['json']
+
+[[plugins]]
+repo = 'yuezk/vim-js'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'maxmellon/vim-jsx-pretty'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'vim-scripts/indentpython.vim'
+on_ft = ['python']
+
+[[plugins]]
+repo = 'nvie/vim-flake8'
+on_ft = ['python']
+
