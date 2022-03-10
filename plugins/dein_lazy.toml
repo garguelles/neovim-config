@@ -11,6 +11,14 @@ repo = 'maxmellon/vim-jsx-pretty'
 on_ft = ['javascript', 'javascript.jsx']
 
 [[plugins]]
+repo = 'leafgarland/typescript-vim'
+on_ft = ['typescriptreact', 'typescript']
+
+[[plugins]]
+repo = 'peitalin/vim-jsx-typescript'
+on_ft = ['typescriptreact']
+
+[[plugins]]
 repo = 'vim-scripts/indentpython.vim'
 on_ft = ['python']
 

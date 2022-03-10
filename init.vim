@@ -122,3 +122,5 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 " Hardline setup
 lua require('hardline').setup {}
 
+" set filetypes as typescriptreact
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
