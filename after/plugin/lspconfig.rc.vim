@@ -102,7 +102,7 @@ capabilities.textDocument.codeAction = {
 capabilities.textDocument.completion.completionItem.snippetSupport = true;
 
 -- LSPs
-local servers = {"pyright", "tsserver", "graphql"}
+local servers = {"pyright", "tsserver", "graphql", "solidity_ls"}
 for _, lsp in ipairs(servers) do
     nvim_lsp[lsp].setup {
 			capabilities = capabilities, 
